@@ -1,0 +1,109 @@
+{
+  "record_id": "HRAS-RC4-OWNER-DECISIONS-CHAT-001",
+  "spec_id": "HRAS-AUTO-ENG",
+  "candidate_version": "20.0.0-rc4",
+  "baseline_version": "20.0.0-rc3",
+  "plan_sha256": "971ac07ee2317cdd730f0c51b7f537e547682c150258e13354bcac0c02ad24d1",
+  "recorded_at": "2026-10-28T16:37:14Z",
+  "approval_basis": "The user explicitly instructed the assistant to complete remediation according to the stated recommendations. The D-02, D-05, D-12 and MR-43 dispositions select those recommendations; D-01, D-03, D-04 and D-06 through D-15 adopt the canonical plan's explicit recommended resolutions for this candidate.",
+  "identity_and_signature_limit": "This is a decision record derived from explicit chat authorization. No cryptographic signature or external identity-provider verification was available; it does not by itself satisfy a production trust controller's signed owner-attestation requirement.",
+  "scope": "Candidate engineering, schema design, local validation and evidence preparation only. Does not authorize push, merge, CI/CD, deployment, spend, credential expansion, policy waiver, promotion or a production-readiness claim.",
+  "decisions": [
+    {
+      "id": "D-01",
+      "title": "canonical sources",
+      "decision": "Prose specification controls normative intent; canonical machine-readable schema/policy/case registries control executable data; rendered/embedded copies are generated. Any mismatch blocks candidate validation until reconciled.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-02",
+      "title": "North Star hierarchy",
+      "decision": "Retain HRAS-NS-001 through HRAS-NS-005 as the only top-level canonical North Stars for rc4. Map proposed excellence, user-effort, frontier-awareness, artifact-hygiene, diagnose-repair-retest, and validated-user-outcome concepts to measurable sub-requirements and existing North Stars. Do not add a new top-level North Star or renumber requirements in rc4; reassess only in a separately versioned governance decision if a genuinely independent acceptance gate is demonstrated.",
+      "basis": "Explicit recommendation chosen after user authorized completion."
+    },
+    {
+      "id": "D-03",
+      "title": "status taxonomies",
+      "decision": "Keep artifact lifecycle, module result, test result, workflow state, external operation state, validation status, and delivery status as distinct typed taxonomies. No cross-family coercion is permitted.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-04",
+      "title": "INCONCLUSIVE",
+      "decision": "Propagate INCONCLUSIVE through case results, aggregates, reports, adapters and controller. No non-PASS status satisfies a required release gate; unexecuted/unmaterialized remains NOT_RUN or BLOCKED according to reason.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-05",
+      "title": "exception and release semantics",
+      "decision": "An exception is acceptable only when independently approved, unexpired, scoped, policy-waivable and supported by evidence; it never converts FAIL/NOT_RUN/INCONCLUSIVE into PASS and never waives a non-waivable condition. Any release that relies on an exception must be DONE_WITH_GAPS; PRODUCTION_READY, DEPLOYED_AND_VERIFIED, and MASTERPIECE_VERIFIED require zero exception-based waivers. MASTERPIECE_VERIFIED allows no exceptions.",
+      "basis": "Explicit recommendation chosen after user authorized completion."
+    },
+    {
+      "id": "D-06",
+      "title": "state machine ownership",
+      "decision": "One versioned machine-readable transition registry is the source of workflow transition edges. The reference controller consumes it and rejects unknown modes, unknown states, forbidden edges and terminal-state re-entry. Workflow, operation, and delivery state remain separate.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-07",
+      "title": "QualityProfile immutability",
+      "decision": "Freeze and hash applicability, hard gates, targets, comparator set and thresholds before evaluation. Any change creates a new profile/hash and invalidates impacted evidence; profiles may add, never remove, baseline or non-waivable gates.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-08",
+      "title": "MASTERPIECE semantics",
+      "decision": "MASTERPIECE_VERIFIED is an evidence-backed evaluation state, not an award or universal superiority claim. Require applicable gates, fresh artifact-bound evidence, product acceptance criteria, an independent comparator/review, workflow_state DELIVERED, and no blockers, unverified items or exception-based waivers.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-09",
+      "title": "user validation fallback",
+      "decision": "Use representative user-task validation where feasible and authorized. Otherwise use clearly labelled proxy methods; proxy evidence never supports a claim of empirical human research and does not silently waive applicable gates.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-10",
+      "title": "retry and convergence",
+      "decision": "Use durable, bounded global/project/task budgets and attempt accounting. Repeated identical failure signatures require a strategy pivot after three occurrences; four repetitions block the item. No resetting counters to evade budgets, and thresholds cannot be expanded after observing failures.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-11",
+      "title": "domain agnosticism",
+      "decision": "Select quality profiles from product class, user context, risk, scale, target environment, data sensitivity and constraints. No illustrative product class becomes the default mandatory feature set or benchmark majority.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-12",
+      "title": "policy-registry packaging",
+      "decision": "The version-pinned multi-file package is the normative publication unit for rc4. HRAS_v20_Policy_Registry.json is the only canonical policy source. Annex B is explanatory and generated from the registry; it is not a separately maintained policy authority. Missing, stale, unapproved or hash-mismatched policy fails closed.",
+      "basis": "Explicit recommendation chosen after user authorized completion."
+    },
+    {
+      "id": "D-13",
+      "title": "schema freeze sequencing",
+      "decision": "Design all schema changes in the contract phase; freeze the registry atomically only after requirements, controller interfaces, reports and tests reconcile. Any post-freeze schema change creates a new version/hash and invalidates dependent validation results.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-14",
+      "title": "independent domain oracle",
+      "decision": "Derive domain oracles in an isolated process/container with OS-enforced source-read exclusion; permit only approved requirements, contracts, axioms and independent reference vectors. Isolation must be audited, not asserted by prompt text.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "D-15",
+      "title": "blocked-integration adapter semantics",
+      "decision": "Use typed live and contract-verified sandbox adapters. Sandbox use must be explicit, environment/profile scoped, visibly marked non-live, and prohibited from satisfying live-integration or production gates.",
+      "basis": "Canonical plan recommendation adopted for candidate engineering."
+    },
+    {
+      "id": "MR-43",
+      "title": "LifecycleAndOperabilitySpec proposed synthesis",
+      "decision": "Adopt MR-43 as P1, profile/risk/applicability-scoped. Define a typed LifecycleAndOperabilitySpec and require operational evidence only for applicable components, with explicit non-applicability rationale; required lifecycle evidence blocks the delivery statuses it governs.",
+      "basis": "Explicit recommendation chosen after user authorized completion."
+    }
+  ]
+}

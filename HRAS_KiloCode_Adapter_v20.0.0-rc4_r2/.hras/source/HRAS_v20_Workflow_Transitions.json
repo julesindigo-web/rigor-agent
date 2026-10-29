@@ -1,0 +1,976 @@
+{
+  "registry_id": "HRAS-WORKFLOW-TRANSITIONS",
+  "schema_version": "1.0.0",
+  "spec_id": "HRAS-AUTO-ENG",
+  "spec_version": "20.0.0-rc4",
+  "source_of_truth": "HRAS_v20_Workflow_Transitions.json",
+  "mode_count": 13,
+  "terminal_states": [
+    "DELIVERED",
+    "PARTIAL_DELIVERY",
+    "EXHAUSTED",
+    "FAILED"
+  ],
+  "repair_loop_policy": {
+    "same_failure_signature_max_occurrences": 3,
+    "on_fourth_occurrence": "BLOCKED",
+    "retry_requires_material_strategy_or_root_cause_change": true,
+    "budget_reset_allowed": false,
+    "no_progress_change_approach_at_occurrences": 2,
+    "same_failure_change_approach_at_occurrences": 3
+  },
+  "modes": [
+    {
+      "primary_mode": "ARTIFACT_AUDIT",
+      "transitions": [
+        {
+          "from_state": "AUDITING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "AUDITING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "AUDITING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "AUDITING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RELEASE_REVIEW"
+        }
+      ]
+    },
+    {
+      "primary_mode": "DESIGN_ONLY",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DESIGNING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "DESIGNING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "DESIGNING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "DESIGNING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RELEASE_REVIEW"
+        }
+      ]
+    },
+    {
+      "primary_mode": "FAST_FIX",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "PLANNED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "RELEASE_REVIEW"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "FAILED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "PARTIAL_DELIVERY"
+        }
+      ]
+    },
+    {
+      "primary_mode": "FEATURE_BUILD",
+      "transitions": [
+        {
+          "from_state": "ARCHITECTED",
+          "to_state": "PLANNED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "SPECIFIED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "RELEASE_REVIEW"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "FAILED"
+        },
+        {
+          "from_state": "SPECIFIED",
+          "to_state": "ARCHITECTED"
+        },
+        {
+          "from_state": "SPECIFIED",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "PARTIAL_DELIVERY"
+        }
+      ]
+    },
+    {
+      "primary_mode": "GENERAL_ASSISTANCE",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "RESEARCHING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RESEARCHING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RESEARCHING"
+        }
+      ]
+    },
+    {
+      "primary_mode": "IDEA_TO_PRODUCTION",
+      "transitions": [
+        {
+          "from_state": "ARCHITECTED",
+          "to_state": "PLANNED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "SPECIFIED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "RELEASE_REVIEW"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "FAILED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "SPECIFIED",
+          "to_state": "ARCHITECTED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "PARTIAL_DELIVERY"
+        }
+      ]
+    },
+    {
+      "primary_mode": "INCIDENT_RESPONSE",
+      "transitions": [
+        {
+          "from_state": "AUDITING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "AUDITING",
+          "to_state": "WAITING_FOR_AUTHORIZATION"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "AUDITING"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "WAITING_FOR_AUTHORIZATION",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "WAITING_FOR_AUTHORIZATION",
+          "to_state": "VERIFYING"
+        }
+      ]
+    },
+    {
+      "primary_mode": "MAINTENANCE",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "PLANNED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "RELEASE_REVIEW"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "FAILED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "PARTIAL_DELIVERY"
+        }
+      ]
+    },
+    {
+      "primary_mode": "PLAN_ONLY",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "SPECIFIED"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "RELEASE_REVIEW"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "SPECIFIED",
+          "to_state": "PLANNED"
+        }
+      ]
+    },
+    {
+      "primary_mode": "PROTOTYPE",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "SPECIFIED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "IMPLEMENTING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "PLANNED",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "SPECIFIED",
+          "to_state": "PLANNED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "IMPLEMENTING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RELEASE_REVIEW"
+        }
+      ]
+    },
+    {
+      "primary_mode": "RESEARCH_ONLY",
+      "transitions": [
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "RESEARCHING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "RESEARCHING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RESEARCHING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RELEASE_REVIEW"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RESEARCHING"
+        }
+      ]
+    },
+    {
+      "primary_mode": "SECURITY_REVIEW",
+      "transitions": [
+        {
+          "from_state": "AUDITING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "AUDITING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "DISCOVERING"
+        },
+        {
+          "from_state": "DISCOVERING",
+          "to_state": "AUDITING"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "HARDENING",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RELEASE_REVIEW",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "HARDENING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "RELEASE_REVIEW"
+        }
+      ]
+    },
+    {
+      "primary_mode": "TOOL_ACTION",
+      "transitions": [
+        {
+          "from_state": "AUTHORIZED_ACTION",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "AUTHORIZED_ACTION",
+          "to_state": "EXECUTING_ACTION"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "EXHAUSTED"
+        },
+        {
+          "from_state": "BLOCKED",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "CLASSIFIED",
+          "to_state": "PREPARING_ACTION"
+        },
+        {
+          "from_state": "EXECUTING_ACTION",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "EXECUTING_ACTION",
+          "to_state": "RECONCILING_ACTION"
+        },
+        {
+          "from_state": "EXECUTING_ACTION",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "PREPARING_ACTION",
+          "to_state": "AUTHORIZED_ACTION"
+        },
+        {
+          "from_state": "PREPARING_ACTION",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "PREPARING_ACTION",
+          "to_state": "WAITING_FOR_AUTHORIZATION"
+        },
+        {
+          "from_state": "RECEIVED",
+          "to_state": "CLASSIFIED"
+        },
+        {
+          "from_state": "RECONCILING_ACTION",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "RECONCILING_ACTION",
+          "to_state": "FAILED"
+        },
+        {
+          "from_state": "RECONCILING_ACTION",
+          "to_state": "VERIFYING"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "BLOCKED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "DELIVERED"
+        },
+        {
+          "from_state": "VERIFYING",
+          "to_state": "PARTIAL_DELIVERY"
+        },
+        {
+          "from_state": "WAITING_FOR_AUTHORIZATION",
+          "to_state": "AUTHORIZED_ACTION"
+        },
+        {
+          "from_state": "WAITING_FOR_AUTHORIZATION",
+          "to_state": "BLOCKED"
+        }
+      ]
+    }
+  ],
+  "prohibited_shortcuts": [
+    {
+      "primary_mode": "IDEA_TO_PRODUCTION",
+      "from_state": "CLASSIFIED",
+      "to_state": "DELIVERED"
+    },
+    {
+      "primary_mode": "TOOL_ACTION",
+      "from_state": "PREPARING_ACTION",
+      "to_state": "DELIVERED"
+    },
+    {
+      "primary_mode": "TOOL_ACTION",
+      "from_state": "WAITING_FOR_AUTHORIZATION",
+      "to_state": "EXECUTING_ACTION"
+    }
+  ],
+  "limitations": [
+    "Transition edges constrain legal state changes but do not replace trusted authorization, budget enforcement, durable checkpoints, operation reconciliation, or independent release gates."
+  ],
+  "retry_edges": [
+    {
+      "primary_mode": "ARTIFACT_AUDIT",
+      "from_state": "VERIFYING",
+      "to_state": "AUDITING"
+    },
+    {
+      "primary_mode": "DESIGN_ONLY",
+      "from_state": "VERIFYING",
+      "to_state": "DESIGNING"
+    },
+    {
+      "primary_mode": "FAST_FIX",
+      "from_state": "VERIFYING",
+      "to_state": "HARDENING"
+    },
+    {
+      "primary_mode": "FAST_FIX",
+      "from_state": "VERIFYING",
+      "to_state": "IMPLEMENTING"
+    },
+    {
+      "primary_mode": "FEATURE_BUILD",
+      "from_state": "VERIFYING",
+      "to_state": "HARDENING"
+    },
+    {
+      "primary_mode": "FEATURE_BUILD",
+      "from_state": "VERIFYING",
+      "to_state": "IMPLEMENTING"
+    },
+    {
+      "primary_mode": "GENERAL_ASSISTANCE",
+      "from_state": "VERIFYING",
+      "to_state": "DISCOVERING"
+    },
+    {
+      "primary_mode": "GENERAL_ASSISTANCE",
+      "from_state": "VERIFYING",
+      "to_state": "RESEARCHING"
+    },
+    {
+      "primary_mode": "IDEA_TO_PRODUCTION",
+      "from_state": "RELEASE_REVIEW",
+      "to_state": "IMPLEMENTING"
+    },
+    {
+      "primary_mode": "IDEA_TO_PRODUCTION",
+      "from_state": "VERIFYING",
+      "to_state": "HARDENING"
+    },
+    {
+      "primary_mode": "IDEA_TO_PRODUCTION",
+      "from_state": "VERIFYING",
+      "to_state": "IMPLEMENTING"
+    },
+    {
+      "primary_mode": "INCIDENT_RESPONSE",
+      "from_state": "VERIFYING",
+      "to_state": "HARDENING"
+    },
+    {
+      "primary_mode": "MAINTENANCE",
+      "from_state": "VERIFYING",
+      "to_state": "HARDENING"
+    },
+    {
+      "primary_mode": "MAINTENANCE",
+      "from_state": "VERIFYING",
+      "to_state": "IMPLEMENTING"
+    },
+    {
+      "primary_mode": "PROTOTYPE",
+      "from_state": "VERIFYING",
+      "to_state": "IMPLEMENTING"
+    },
+    {
+      "primary_mode": "RESEARCH_ONLY",
+      "from_state": "VERIFYING",
+      "to_state": "RESEARCHING"
+    },
+    {
+      "primary_mode": "SECURITY_REVIEW",
+      "from_state": "VERIFYING",
+      "to_state": "HARDENING"
+    }
+  ]
+}

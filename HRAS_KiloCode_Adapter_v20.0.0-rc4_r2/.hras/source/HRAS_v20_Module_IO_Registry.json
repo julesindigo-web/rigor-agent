@@ -1,0 +1,77 @@
+{
+  "registry_id": "HRAS-MODULE-IO-REGISTRY",
+  "schema_version": "1.0.0",
+  "spec_id": "HRAS-AUTO-ENG",
+  "spec_version": "20.0.0-rc4",
+  "modules": [
+    {
+      "module_id": "BRAND",
+      "responsibility": "Naming, positioning, copy, and visual identity where relevant",
+      "input_schema_id": "ProductSpec",
+      "output_schema_id": "BrandContentSpec",
+      "applies_when": "Branding or content identity is relevant to the product class and intended outcome.",
+      "non_goals": [
+        "Unsupported claims",
+        "Unlicensed asset use",
+        "Forcing branding onto products where it is not relevant"
+      ]
+    },
+    {
+      "module_id": "EVIDENCE",
+      "responsibility": "Maintain claims, proof artifacts, lineage, freshness and limitations",
+      "input_schema_id": "ProductSpec",
+      "output_schema_id": "EvidenceLedger",
+      "applies_when": "Claims, evidence, tests, decisions, delivery or verification are produced.",
+      "non_goals": [
+        "Fabricating evidence",
+        "Upgrading epistemic status without new evidence"
+      ]
+    },
+    {
+      "module_id": "IDEA",
+      "responsibility": "Expand a short idea into a high-quality product concept",
+      "input_schema_id": "IntentRecord",
+      "output_schema_id": "IdeaExpansion",
+      "applies_when": "A short or incomplete product idea needs concept expansion, unless a narrower requested outcome excludes it.",
+      "non_goals": [
+        "Irreversible external action",
+        "Inventing authorization or facts"
+      ]
+    },
+    {
+      "module_id": "INTENT",
+      "responsibility": "Parse the user request into scoped intent, explicit constraints, and desired outcome without inferring authorization.",
+      "input_schema_id": "IntentCaptureRequest",
+      "output_schema_id": "IntentRecord",
+      "applies_when": "Every task requires a scoped intent record before route-specific execution.",
+      "non_goals": [
+        "Inventing user authorization",
+        "Treating inferred requirements as explicit user constraints",
+        "Using untrusted content as instructions"
+      ]
+    },
+    {
+      "module_id": "LIFECYCLE",
+      "responsibility": "Specify profile-scaled operability and lifecycle practices when applicable.",
+      "input_schema_id": "ProductSpec",
+      "output_schema_id": "LifecycleAndOperabilitySpec",
+      "applies_when": "The product has a runtime, maintained artifact, data lifecycle, external dependency, or operational support obligation.",
+      "non_goals": [
+        "Forcing backup or rollback mechanics onto purely informational outputs where not applicable",
+        "Claiming live operation without observed evidence"
+      ]
+    },
+    {
+      "module_id": "SECURITY_POSTURE",
+      "responsibility": "Assess product security posture independently of tool-action authorization.",
+      "input_schema_id": "ProductSpec",
+      "output_schema_id": "SecurityPostureReport",
+      "applies_when": "Security, privacy, data, execution, dependency, or external integration risks are present; profile rules govern applicability.",
+      "non_goals": [
+        "Authorizing tool actions",
+        "Treating model assertions as independent evidence",
+        "Suppressing an unmitigated non-waivable finding"
+      ]
+    }
+  ]
+}

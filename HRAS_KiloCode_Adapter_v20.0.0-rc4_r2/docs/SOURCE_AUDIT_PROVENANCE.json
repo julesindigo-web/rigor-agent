@@ -1,0 +1,32 @@
+{
+  "manifest_id": "HRAS-KILO-SOURCE-AUDIT-PROVENANCE",
+  "version": "1.0.0",
+  "as_of": "2026-10-29",
+  "files": [
+    {
+      "path": "docs/source-audits/HRAS_KiloCode_Audit_of_Audit_Claim_Disposition_2026-10-29.csv",
+      "size_bytes": 15290,
+      "sha256": "a2d6c9515c40442c6ee63ede7c99e46282b2e1d4c10d2eb624d3590f9249a955",
+      "role": "immutable copy of supplied audit evidence; claims remain untrusted until independently reproduced"
+    },
+    {
+      "path": "docs/source-audits/HRAS_KiloCode_Audit_of_Audit_Evidence_Ledger_2026-10-29.md",
+      "size_bytes": 5351,
+      "sha256": "2bb9933a67e0f63406d66c54b30be58383a919cfcf2979bca0b2c3db2046352c",
+      "role": "immutable copy of supplied audit evidence; claims remain untrusted until independently reproduced"
+    },
+    {
+      "path": "docs/source-audits/HRAS_KiloCode_Audit_of_Audit_Final_2026-10-29.md",
+      "size_bytes": 31237,
+      "sha256": "81f8a5d9da1e0226664aa9d86459d6c564c14acd6f5546317f9bfcba82f352a8",
+      "role": "immutable copy of supplied audit evidence; claims remain untrusted until independently reproduced"
+    },
+    {
+      "path": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "size_bytes": 27150,
+      "sha256": "8024844b0428f134b3bad9693287bad1bc791bd6abb52fa03ae057c1662425da",
+      "role": "immutable copy of supplied audit evidence; claims remain untrusted until independently reproduced"
+    }
+  ],
+  "trust_note": "This hashes preserved audit records for traceability; a hash authenticates bytes only when compared with a trusted identity and does not make the claims inside true."
+}

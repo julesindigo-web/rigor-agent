@@ -1,0 +1,20 @@
+{
+  "artifact_id": "HRAS-VISION-PROVENANCE",
+  "package_version": "20.0.0-rc4",
+  "source_path": "Visi HRAS.md",
+  "source_sha256": "2a9fe5885bd7ed9a4dcd29cc2b9be03813e728e515b20b8e9646ac79bfe5706c",
+  "source_size_bytes": 23268,
+  "source_line_count": 146,
+  "source_declared_version": null,
+  "source_declared_date": null,
+  "pinned_as": "byte-exact supplemental source in the rc4 candidate package",
+  "semantic_mapping_status": "PARTIAL",
+  "line_level_clause_inventory": "HRAS_v20_Vision_Clause_Inventory.csv",
+  "independent_review_status": "PENDING",
+  "limitations": [
+    "Source declares no explicit version or date in its header; this is not proof that no external provenance exists.",
+    "Line inventory preserves source text and line numbers but does not assert semantic equivalence to requirements or tests.",
+    "The existing conceptual map is not an independently reviewed one-to-one clause trace.",
+    "v19 source artifacts are not present in the supplied source set; lineage remains unverified."
+  ]
+}

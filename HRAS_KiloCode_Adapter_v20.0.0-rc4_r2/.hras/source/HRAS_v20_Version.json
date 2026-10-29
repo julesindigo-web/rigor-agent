@@ -1,0 +1,12 @@
+{
+  "spec_id": "HRAS-AUTO-ENG",
+  "spec_version": "20.0.0-rc4",
+  "baseline_version": "20.0.0-rc3",
+  "release_status": "CANDIDATE_NOT_PRODUCTION_READY",
+  "version_source": "HRAS_v20_Version.json",
+  "created_at": "2026-10-28T15:17:30.948406+00:00",
+  "plan_sha256": "971ac07ee2317cdd730f0c51b7f537e547682c150258e13354bcac0c02ad24d1",
+  "identity_policy": "All active candidate identity-bearing artifacts derive from this record; any mismatch fails package validation.",
+  "schema_registry_status": "OPEN_NOT_FROZEN",
+  "schema_registry_status_reason": "Dependent trusted runtime integrations, runtime evidence, independent review and full closure reconciliation remain open; freeze only after canonical plan D-FREEZE preconditions are met."
+}

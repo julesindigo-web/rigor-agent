@@ -1,0 +1,466 @@
+{
+  "report_version": "20.0.0-rc4",
+  "spec_id": "HRAS-AUTO-ENG",
+  "scope": "static artifacts, schemas, module I/O contracts, policy references, and traceability; no target LLM runtime exercised",
+  "status": "PASS",
+  "assertion_count": 83,
+  "passed": 83,
+  "failed": 0,
+  "observed_at": "2026-10-28T22:06:01.264262+00:00",
+  "command": "/opt/pyvenv/bin/python HRAS_v20_static_validator.py --report-dir .",
+  "exit_code": 0,
+  "environment": {
+    "python_executable": "/opt/pyvenv/bin/python",
+    "python_version": "3.13.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "working_directory": "/tmp/hras_rc4_remediation_repo"
+  },
+  "input_sha256": {
+    "HRAS_v20_Workflow_Transitions.json": "3fb164127d0b918b34663d13dabb0b7b6be02f42632cbd0deb6d497ed0de9f67",
+    "HRAS_v20_Governance_Decisions.json": "71b12a74f4247be40140fb54247a97cb0fbb16c7ef47897f0c61b82206af8a72",
+    "HRAS_v20_Version.json": "afe52a504cdb9504d0e3341ef45a338a77e688a16aec792e46051ed3dc27a314",
+    "HRAS_v20_Canonical_Autonomous_Production_Grade_Spec.md": "97829d3217ee7964343ab0b054d29edbd683c5377aaf4cb09cdd63094b767ba4",
+    "HRAS_v20_Compiled_Core_Prompt.md": "22cfbad06c8aa2faed3cfb6ae971cee69d0911cabfe2688ca61fc30b9b865320",
+    "HRAS_v20_Contract_Schemas.json": "b4fc8a7b0acb9027597efcdd22a4c1dbb659f7d5d1290649174b52821d25dd88",
+    "HRAS_v20_Policy_Registry.json": "aaf8d139208df31ebf5d46a55d6870f182077860afe07b27f71213c5874f5d2b",
+    "HRAS_v20_Module_IO_Registry.json": "6dab814450236822fc22bbe6106b608edbc03fa9b4d2a5bcea8f76b93099ec9c",
+    "HRAS_v20_Requirement_Traceability.json": "8cfbb12a43dab37bcf572b8f5c36944fe556d3bfb1aadd568068a8c81d853baf",
+    "HRAS_v20_Test_Cases.json": "a6ee948eb108e69bf5e836f0bf8c6885a7ebf94694511f2caee8d648ab3f9fcf",
+    "HRAS_v20_Conformance_and_Adversarial_Test_Suite.md": "848b9c6cafed0a0876f220d98080b981350c3d62311111a409ce6eebef46242a",
+    "HRAS_v20_Requirements_and_Design_Decisions.md": "840050f330918049ffb4d83c3eb2e091d085c2e0b65900698e517cac946e773b",
+    "HRAS_v20_reference_controller.py": "734376442d154d2775c5ff4988980c5e236de64fb5be2dfa99fd862243a868a2",
+    "HRAS_v20_static_validator.py": "934beb6e133800bf9226ef3bc9221dcf13d20685864a1a96876b047de563291e",
+    "HRAS_v20_package_tool.py": "fd476fb86c0fd2be15c735c9c952b3a5444ed80005e65a337f8c18567f6953bd",
+    "README_HRAS_v20_Package.md": "98853925292819e9a6264dc50cf405462153871ac867305dac0167bd9bbbb153",
+    "HRAS_v20_North_Star_Subrequirement_Map.json": "a532b7df36809d0cb3b51cdf07dce8423631e5b110ab70f905974775ca2d33f0",
+    "HRAS_v20_Workflow_Coverage_Report.json": "2b71c7abaf80de9f1626dd3a5d8266d18f60135e17a14313082b78a550e6ebc1",
+    "Visi HRAS.md": "2a9fe5885bd7ed9a4dcd29cc2b9be03813e728e515b20b8e9646ac79bfe5706c",
+    "HRAS_v20_Vision_Provenance.json": "e2c11905191f08476a53a07f2699b9fe57d40f6eb491ce3404173cc01ef11a70",
+    "HRAS_v20_Vision_Clause_Inventory.csv": "81a531e4b3a1a236d2a47c1366f4d44958723132bdfc95cabeba8fda41a9d5bc",
+    ".python-version": "e72b03ed5b70312f2782f2b05055c55b24670e126d50e24c4f2c559bf288f810",
+    "requirements-lock.txt": "90866eccadb54a3ed481afa019c670af08b09f2a12ddbe9688e02e7c94a2af9e"
+  },
+  "test_registry_counts": {
+    "cases": 139,
+    "typed_assertions": 695,
+    "not_run": 139,
+    "fixtures_unmaterialized": 139
+  },
+  "checks": [
+    {
+      "check": "schema-meta-schema-valid",
+      "status": "PASS",
+      "details": "JSON Schema Draft 2020-12"
+    },
+    {
+      "check": "all-local-refs-resolve",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "module-output-contracts-present",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "module-io-registry-valid",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "artifact-status-enums-explicit-and-separated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "inconclusive-result-aggregation-fail-closed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "performance-metric-referential-integrity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "yaml-examples-explicitly-non-normative",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "intent-record-and-source-reference-contracts-defined",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "canonical-evidence-research-subroute",
+      "status": "PASS",
+      "details": "['REQUIREMENTS', 'ARCHITECTURE', 'IMPLEMENTATION', 'TESTING', 'SECURITY', 'PERFORMANCE', 'ACCESSIBILITY', 'DEPLOYMENT', 'MIGRATION', 'INCIDENT_TRIAGE', 'INCIDENT_CONTAINMENT', 'RECOVERY', 'POSTMORTEM', 'DOCUMENTATION', 'UI_UX', 'EVIDENCE_RESEARCH', 'VALIDATION']"
+    },
+    {
+      "check": "version-identity-consistent",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "schema-registry-freeze-status-is-explicit-and-bound",
+      "status": "PASS",
+      "details": "version=OPEN_NOT_FROZEN; manifest=OPEN_NOT_FROZEN"
+    },
+    {
+      "check": "test-count-derived",
+      "status": "PASS",
+      "details": "declared=139 actual=139"
+    },
+    {
+      "check": "requirement-count-derived",
+      "status": "PASS",
+      "details": "registry_count=53 rendered_count=53"
+    },
+    {
+      "check": "test-IDs-unique",
+      "status": "PASS",
+      "details": "count=139"
+    },
+    {
+      "check": "all-requirements-rendered",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all-requirements-have-test-or-disposition",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "bidirectional-trace-valid",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "bidirectional-trace-mutations-detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all-case-refs-known",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "canonical-policy-IDs",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "case-hashes-recomputed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "package-file-hashes-sizes-and-checksum-coverage",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "all-cases-have-typed-oracle",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "oracle-required-field-mutation-detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "pass-criteria-distinct-from-description",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "oracle-assertions-linked-to-pass-and-fail-criteria",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "case-specific-failure-conditions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "observation-envelope-provenance-assertions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "fixture-hash-semantics-explicit",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "environment-profiles-declared",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "adversarial-trials-bounded-and-repeated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "source-and-case-trace-projections-equal",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "pass-for-unmaterialized-fixture-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "observation-envelope-validates",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "observation-envelope-missing-provenance-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "unmaterialized-observation-cannot-pass-provenance-controller",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "materialized-matching-observation-provenance-accepted",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "materialized-mismatched-fixture-hash-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "run-manifest-config-mismatch-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "restricted-actions-present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "policy-hash-contract-explicit",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all-trial-policies-bounded",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "no-test-claims-execution",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "fixtures-not-pretended-materialized",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "main-workflow-failure-blocks",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all-BLOCKER-cases-block",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "nonblocking-HIGH-documented",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "general-and-incident-modes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "tool-action-states-present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "new-statuses-present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "validation-status-has-UNKNOWN",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "schema-conditionals-present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "authorization-crypto-evidence-required-for-allow",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "exception-independent-approval-enforced",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "non-waivable-condition-registry-explicit",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "unknown-outcome-cannot-submit",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "tool-action-skip-is-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "canonical-workflow-registry-valid",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "canonical-workflow-covers-all-modes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "workflow-retry-bounded-and-strategy-pivoted",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "retry-policy-explicitly-enforces-no-progress-and-repeated-failure",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "north-star-subrequirement-map-valid-and-canonical",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "north-star-map-references-existing-requirements-and-tests",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "workflow-coverage-report-valid-and-current",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "workflow-retry-edges-fail-closed-on-cycle-mutation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "annex-b-policy-registry-hash-bound",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "new-modules-registered",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "release-schema-requires-evidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "lifecycle-operability-crossfield-invariants",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "security-posture-pass-requires-independent-review",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "lifecycle-security-semantic-validators-wired",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "invalid-route-enum-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "ALLOW-without-verified-signature-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "duplicate-json-keys-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "self-approved-exception-rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all-test-cases-schema-valid",
+      "status": "PASS",
+      "details": "[]"
+    },
+    {
+      "check": "embedded-schema-equals-companion",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "annex-order",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "INP-threshold-corrected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "obsolete-T-011-not-used",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "no-stale-v19-test-count-claims",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "quality-score-weights-sum-100",
+      "status": "PASS",
+      "details": "weights=[8, 10, 10, 10, 10, 10, 8, 8, 5, 5, 8, 4, 4]; total=100"
+    }
+  ]
+}

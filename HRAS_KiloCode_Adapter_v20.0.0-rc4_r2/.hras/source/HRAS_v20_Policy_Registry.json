@@ -1,0 +1,237 @@
+{
+  "case_hash_policy": {
+    "canonicalization": "RFC 8785 JSON Canonicalization Scheme (JCS)",
+    "hash": "SHA-256",
+    "id": "HRAS-POL-HASH-001",
+    "rules": [
+      "Reject duplicate JSON object names at parse time before schema validation.",
+      "Hash UTF-8 bytes of JCS-canonical JSON object with case_hash field omitted.",
+      "Do not normalize string values; JCS does not apply Unicode normalization.",
+      "Use a tested RFC 8785 implementation; do not emulate JCS using generic json.dumps(sort_keys=True).",
+      "Reject non-finite numbers and values outside interoperable I-JSON number requirements.",
+      "Store the JCS implementation name/version and canonicalization test-vector result with the manifest."
+    ]
+  },
+  "delivery_status_enum": [
+    "NOT_DELIVERED",
+    "PLAN_DELIVERED",
+    "DESIGN_DELIVERED",
+    "RESEARCH_DELIVERED",
+    "AUDIT_DELIVERED",
+    "PROTOTYPE_DELIVERED",
+    "PARTIAL",
+    "BLOCKED",
+    "EXHAUSTED",
+    "DONE_WITH_GAPS",
+    "WORKING_VERIFIED",
+    "LOCAL_VERIFIED",
+    "STAGING_READY",
+    "DEPLOYED_UNVERIFIED",
+    "PRODUCTION_READY",
+    "DEPLOYED_AND_VERIFIED",
+    "ACTION_EXECUTED_UNVERIFIED",
+    "ACTION_VERIFIED",
+    "RECONCILIATION_REQUIRED",
+    "MASTERPIECE_VERIFIED"
+  ],
+  "non_waivable_policy": {
+    "conditions": [
+      "unauthorized high-impact or external action",
+      "prohibited secret disclosure",
+      "fabricated or tampered critical evidence",
+      "known critical data-integrity failure",
+      "control-plane or instruction-hierarchy bypass that changes authority",
+      "invalid or mismatched active spec/schema/validator identity",
+      "unknown or unexecuted mandatory hard gate",
+      "blind resubmission while operation outcome is unknown",
+      "validator/controller absent or not identity-verified"
+    ],
+    "description": "Single source of truth for gates that cannot be waived by model, project profile, or ordinary exception.",
+    "effects": [
+      "BLOCK_PRODUCTION_READY",
+      "BLOCK_DEPLOYED_AND_VERIFIED",
+      "BLOCK_MASTERPIECE_VERIFIED",
+      "REPORT_TRUE_STATUS"
+    ],
+    "id": "HRAS-POL-NW-001",
+    "condition_registry": [
+      {
+        "condition_id": "HRAS-NW-001",
+        "description": "unauthorized high-impact or external action",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-002",
+        "description": "prohibited secret disclosure",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-003",
+        "description": "fabricated or tampered critical evidence",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-004",
+        "description": "known critical data-integrity failure",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-005",
+        "description": "control-plane or instruction-hierarchy bypass that changes authority",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-006",
+        "description": "invalid or mismatched active spec/schema/validator identity",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-007",
+        "description": "unknown or unexecuted mandatory hard gate",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-008",
+        "description": "blind resubmission while operation outcome is unknown",
+        "non_waivable": true
+      },
+      {
+        "condition_id": "HRAS-NW-009",
+        "description": "validator/controller absent or not identity-verified",
+        "non_waivable": true
+      }
+    ],
+    "condition_count": 9
+  },
+  "policy_registry_id": "HRAS-POLICY-REGISTRY",
+  "primary_mode_enum": [
+    "FAST_FIX",
+    "MAINTENANCE",
+    "FEATURE_BUILD",
+    "IDEA_TO_PRODUCTION",
+    "SECURITY_REVIEW",
+    "ARTIFACT_AUDIT",
+    "RESEARCH_ONLY",
+    "TOOL_ACTION",
+    "DESIGN_ONLY",
+    "PLAN_ONLY",
+    "PROTOTYPE",
+    "GENERAL_ASSISTANCE",
+    "INCIDENT_RESPONSE"
+  ],
+  "release_gate_policy": {
+    "id": "HRAS-POL-GATE-001",
+    "rules": [
+      "BLOCKER always blocks release.",
+      "Non-waivable policy conditions always block production statuses.",
+      "HIGH blocks when it violates a MUST, affects a mandatory gate, security/privacy/data integrity, required functional path, or accepted target SLO; otherwise it may be non-blocking only with task/profile applicability, rationale, owner, expiration/review, and authorized acceptance evidence.",
+      "The model may classify a risk but cannot directly set release_blocking; trusted policy derives the decision.",
+      "UNKNOWN, NOT_RUN, missing evidence, or missing oracle cannot satisfy a mandatory gate.",
+      "A task profile may add blocking conditions but cannot remove baseline non-waivable conditions."
+    ]
+  },
+  "restricted_actions_policy": {
+    "actions": [
+      {
+        "action": "force-push or rewrite shared Git history",
+        "default": "DENY",
+        "possible_exception": "only on explicitly designated disposable/private branch with owner authorization and verified backup; never to hide evidence or bypass review"
+      },
+      {
+        "action": "sudo or global/package-manager install",
+        "default": "DENY",
+        "possible_exception": "explicit environment owner approval, pinned source/hash, impact analysis, reversible plan; prefer project-local isolation"
+      },
+      {
+        "action": "upload source code, private artifacts, credentials, logs, or user data to a third party",
+        "default": "DENY",
+        "possible_exception": "explicit data-owner authorization, destination/retention/purpose review, least-data disclosure, DPA/policy checks where applicable; secrets remain forbidden"
+      },
+      {
+        "action": "disable scanners, branch protection, audit logs, sandbox, authorization, release gates, or security controls",
+        "default": "DENY",
+        "possible_exception": "no exception to bypass a control to make a release pass; operator may disable only a non-production diagnostic control with separate written scope and compensating controls"
+      },
+      {
+        "action": "expand credential scope or access to unrelated tenants/resources",
+        "default": "DENY",
+        "possible_exception": "fresh grant from authorized identity owner with least privilege"
+      }
+    ],
+    "default": "DENY_UNLESS_EXPLICIT_SCOPED_AUTHORIZATION_AND_PLATFORM_POLICY_PERMIT",
+    "id": "HRAS-POL-ACTION-001"
+  },
+  "scope_note": "Canonical only when version-pinned and enforced by a trusted controller. Candidate decision dispositions were authorized in chat, but no cryptographic owner signature/identity attestation is present; production controls requiring signed attestation must continue to fail closed.",
+  "status": "CANDIDATE_DECISIONS_RECORDED_CHAT_AUTHORIZATION_CRYPTOGRAPHIC_IDENTITY_UNVERIFIED",
+  "test_registry_ref": "HRAS_v20_Test_Cases.json",
+  "traceability_registry_ref": "HRAS_v20_Requirement_Traceability.json",
+  "version": "20.0.0-rc4",
+  "workflow_state_enum": [
+    "RECEIVED",
+    "CLASSIFIED",
+    "DISCOVERING",
+    "SPECIFIED",
+    "ARCHITECTED",
+    "PLANNED",
+    "IMPLEMENTING",
+    "VERIFYING",
+    "HARDENING",
+    "RESEARCHING",
+    "AUDITING",
+    "DESIGNING",
+    "RELEASE_REVIEW",
+    "PREPARING_ACTION",
+    "AUTHORIZED_ACTION",
+    "EXECUTING_ACTION",
+    "RECONCILING_ACTION",
+    "WAITING_FOR_AUTHORIZATION",
+    "DELIVERED",
+    "BLOCKED",
+    "PARTIAL_DELIVERY",
+    "EXHAUSTED",
+    "FAILED"
+  ],
+  "subroute_aliases": {
+    "RESEARCH": "EVIDENCE_RESEARCH"
+  },
+  "subroute_alias_policy": {
+    "id": "HRAS-POL-SUBROUTE-ALIAS-001",
+    "status": "CANDIDATE_REQUIRES_OWNER_APPROVAL",
+    "rules": [
+      "Normalize a registered legacy alias before schema validation and before serialization.",
+      "RESEARCH is an input alias only and is emitted/stored as EVIDENCE_RESEARCH.",
+      "Unknown subroute tokens are rejected; they are never silently dropped or mapped by similarity.",
+      "Primary mode RESEARCH_ONLY remains distinct from the EVIDENCE_RESEARCH capability/subroute."
+    ]
+  },
+  "policy_publication": {
+    "normative_unit": "VERSION_PINNED_MULTI_FILE_PACKAGE",
+    "canonical_policy_file": "HRAS_v20_Policy_Registry.json",
+    "annex_b_role": "EXPLANATORY_GENERATED_VIEW",
+    "annex_b_generation_source": "HRAS_v20_Policy_Registry.json",
+    "decision_record_ref": "HRAS_v20_Governance_Decisions.json#D-12",
+    "mismatch_behavior": "FAIL_CLOSED",
+    "owner_decision_recorded": "HRAS-RC4-OWNER-DECISIONS-CHAT-001",
+    "identity_attestation_status": "CHAT_AUTHORIZATION_RECORDED_CRYPTOGRAPHIC_IDENTITY_UNVERIFIED"
+  },
+  "masterpiece_exception_policy": {
+    "id": "HRAS-POL-MASTERPIECE-EXCEPTION-001",
+    "rule": "MASTERPIECE_VERIFIED forbids all exception references and exception-based waivers. Any release that relies on an approved exception must be DONE_WITH_GAPS; exceptions never change a failed, unrun or inconclusive gate into PASS.",
+    "production_ready_requires_no_waiver": true,
+    "deployed_and_verified_requires_no_waiver": true,
+    "masterpiece_verified_requires_no_exception_refs": true
+  },
+  "owner_decision_record_ref": "HRAS_v20_Governance_Decisions.json#D-05",
+  "exception_delivery_policy": {
+    "id": "HRAS-POL-EXCEPTION-DELIVERY-001",
+    "active_exception_disposition": "DONE_WITH_GAPS_ONLY",
+    "approved_exception_is_not_gate_pass": true,
+    "non_waivable_conditions_can_never_be_waived": true,
+    "production_statuses_with_exception_refs_are_forbidden": [
+      "PRODUCTION_READY",
+      "DEPLOYED_AND_VERIFIED",
+      "MASTERPIECE_VERIFIED"
+    ],
+    "masterpiece_exception_refs_allowed": false
+  }
+}

@@ -1,0 +1,3715 @@
+{
+  "cases": [
+    {
+      "oracle_assertion_ids": [
+        "RT-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001",
+        "HRAS-R005"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001",
+        "HRAS-R007"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001",
+        "HRAS-R007",
+        "HRAS-R048"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003",
+        "HRAS-R005"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003",
+        "HRAS-R006"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003",
+        "HRAS-R006"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R002",
+        "HRAS-R003",
+        "HRAS-R034"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PQ-010-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003",
+        "HRAS-R018"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PQ-010"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009",
+        "HRAS-R010"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009",
+        "HRAS-R010"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009",
+        "HRAS-R011"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009",
+        "HRAS-R011"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009",
+        "HRAS-R011"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "UX-010-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R009"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "UX-010"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013",
+        "HRAS-R015"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013",
+        "HRAS-R015"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013",
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013",
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-010-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-010"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-011-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R008",
+        "HRAS-R013",
+        "HRAS-R029"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-011"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-012-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R013",
+        "HRAS-R036"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-012"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R020",
+        "HRAS-R030"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R020",
+        "HRAS-R030"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R019",
+        "HRAS-R030"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R030"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R030",
+        "HRAS-R033",
+        "HRAS-R047"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R030"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R030"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R002",
+        "HRAS-R008",
+        "HRAS-R017",
+        "HRAS-R030",
+        "HRAS-R031"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R019",
+        "HRAS-R030",
+        "HRAS-R034",
+        "HRAS-R039",
+        "HRAS-R053"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-010-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R030",
+        "HRAS-R032"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-010"
+    },
+    {
+      "oracle_assertion_ids": [
+        "MEM-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "MEM-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "MEM-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022",
+        "HRAS-R023"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "MEM-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "MEM-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022",
+        "HRAS-R024"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "MEM-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "MEM-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022",
+        "HRAS-R024"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "MEM-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "MEM-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "MEM-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PAR-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R024",
+        "HRAS-R027"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PAR-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "PAR-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R027"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "PAR-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RES-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RES-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RES-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RES-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RES-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025",
+        "HRAS-R039"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RES-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RES-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RES-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RES-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RES-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "CTX-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R026"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "CTX-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "CTX-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R026"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "CTX-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "CTX-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R026"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "CTX-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "CTX-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R026"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "CTX-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "CTX-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R026"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "CTX-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "OPS-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R021",
+        "HRAS-R037"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "OPS-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "OPS-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R021"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "OPS-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "OPS-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R015",
+        "HRAS-R021"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "OPS-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "OPS-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R021"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "OPS-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "DOM-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R007",
+        "HRAS-R012"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "DOM-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "DOM-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R007",
+        "HRAS-R012"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "DOM-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "DOM-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R007",
+        "HRAS-R010"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "DOM-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "DOM-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R007"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "DOM-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "DOM-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R007",
+        "HRAS-R038"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "DOM-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "DOM-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R004",
+        "HRAS-R007",
+        "HRAS-R037"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "DOM-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "EVAL-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R028",
+        "HRAS-R038"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "EVAL-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "EVAL-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R028"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "EVAL-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "EVAL-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R028"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "EVAL-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "REF-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R036"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "REF-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R032",
+        "HRAS-R040",
+        "HRAS-R041"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R032",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040",
+        "HRAS-R043"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R029",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R017",
+        "HRAS-R029",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040",
+        "HRAS-R045"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R023",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-010-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R031",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-010"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-011-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-011"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-012-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R003",
+        "HRAS-R040",
+        "HRAS-R051"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-012"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-013-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R027",
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-013"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-014-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-014"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-015-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-015"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-016-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R035",
+        "HRAS-R040",
+        "HRAS-R050"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-016"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R032",
+        "HRAS-R041"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-002-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025",
+        "HRAS-R042"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-002"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-003-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001",
+        "HRAS-R043"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-003"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R008",
+        "HRAS-R044"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-005-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R030",
+        "HRAS-R045"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-005"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R040",
+        "HRAS-R046"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-007-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R033",
+        "HRAS-R047"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-007"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-008-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R007",
+        "HRAS-R048"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-008"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022",
+        "HRAS-R049"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-010-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R035",
+        "HRAS-R040",
+        "HRAS-R050"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-010"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-011-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R004",
+        "HRAS-R051"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-011"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-012-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R029",
+        "HRAS-R052"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-012"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-013-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R030",
+        "HRAS-R031",
+        "HRAS-R053"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-013"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-014-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025",
+        "HRAS-R026"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-014"
+    },
+    {
+      "oracle_assertion_ids": [
+        "AC-T-015-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R027",
+        "HRAS-R042"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "AC-T-015"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ARCH-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R004"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ARCH-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "IFACE-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R004",
+        "HRAS-R041"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "IFACE-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RT-009-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R001",
+        "HRAS-R043"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RT-009"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ST-011-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R030",
+        "HRAS-R045"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ST-011"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-017-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R019",
+        "HRAS-R040",
+        "HRAS-R046"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-017"
+    },
+    {
+      "oracle_assertion_ids": [
+        "C-018-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R029",
+        "HRAS-R040",
+        "HRAS-R052"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "C-018"
+    },
+    {
+      "oracle_assertion_ids": [
+        "EVAL-004-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R028",
+        "HRAS-R029",
+        "HRAS-R046"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "EVAL-004"
+    },
+    {
+      "oracle_assertion_ids": [
+        "RES-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R025",
+        "HRAS-R042"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "RES-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-013-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R008",
+        "HRAS-R029",
+        "HRAS-R044"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-013"
+    },
+    {
+      "oracle_assertion_ids": [
+        "MEM-006-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R022",
+        "HRAS-R023",
+        "HRAS-R049"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "MEM-006"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-014-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-014"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-015-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-015"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-016-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-016"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-017-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-017"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-018-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-018"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-019-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-019"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-020-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R016"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-020"
+    },
+    {
+      "oracle_assertion_ids": [
+        "GEN-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R043"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "GEN-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "INC-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R043"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "INC-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "STATE-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R030",
+        "HRAS-R045"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "STATE-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-021-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-021"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-022-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-022"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-023-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R014"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-023"
+    },
+    {
+      "oracle_assertion_ids": [
+        "SEC-024-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R008"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "SEC-024"
+    },
+    {
+      "oracle_assertion_ids": [
+        "HASH-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R046"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "HASH-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "TRACE-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R051"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "TRACE-001"
+    },
+    {
+      "oracle_assertion_ids": [
+        "ORA-001-A01"
+      ],
+      "requirement_ids": [
+        "HRAS-R046"
+      ],
+      "status": "NOT_RUN",
+      "test_id": "ORA-001"
+    }
+  ],
+  "edges": [
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R001",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R002",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R002",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R003",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R004",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R004",
+      "semantic_status": "PROPOSED",
+      "test_id": "ARCH-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R004",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R004",
+      "semantic_status": "PROPOSED",
+      "test_id": "IFACE-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R005",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R005",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R006",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R006",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R007",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R008",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R008",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R008",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R008",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-024"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R008",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R009",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R010",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R010",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R010",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R011",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R011",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R011",
+      "semantic_status": "PROPOSED",
+      "test_id": "UX-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R012",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R012",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R013",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-021"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-022"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R014",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-023"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R015",
+      "semantic_status": "PROPOSED",
+      "test_id": "OPS-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R015",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R015",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-014"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-015"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-016"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-017"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-018"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-019"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R016",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-020"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R017",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R018",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R019",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-017"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R019",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R019",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R020",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R020",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R021",
+      "semantic_status": "PROPOSED",
+      "test_id": "OPS-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R021",
+      "semantic_status": "PROPOSED",
+      "test_id": "OPS-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R021",
+      "semantic_status": "PROPOSED",
+      "test_id": "OPS-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R021",
+      "semantic_status": "PROPOSED",
+      "test_id": "OPS-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R022",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R023",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R023",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R023",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R024",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R024",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R024",
+      "semantic_status": "PROPOSED",
+      "test_id": "PAR-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-014"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R025",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R026",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-014"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R026",
+      "semantic_status": "PROPOSED",
+      "test_id": "CTX-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R026",
+      "semantic_status": "PROPOSED",
+      "test_id": "CTX-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R026",
+      "semantic_status": "PROPOSED",
+      "test_id": "CTX-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R026",
+      "semantic_status": "PROPOSED",
+      "test_id": "CTX-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R026",
+      "semantic_status": "PROPOSED",
+      "test_id": "CTX-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R027",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-015"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R027",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R027",
+      "semantic_status": "PROPOSED",
+      "test_id": "PAR-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R027",
+      "semantic_status": "PROPOSED",
+      "test_id": "PAR-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R028",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R028",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R028",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R028",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-018"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R029",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R030",
+      "semantic_status": "PROPOSED",
+      "test_id": "STATE-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R031",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R031",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R031",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R032",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R032",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R032",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R032",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R033",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R033",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R034",
+      "semantic_status": "PROPOSED",
+      "test_id": "PQ-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R034",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R035",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R035",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-016"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R036",
+      "semantic_status": "PROPOSED",
+      "test_id": "REF-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R036",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R037",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R037",
+      "semantic_status": "PROPOSED",
+      "test_id": "OPS-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R038",
+      "semantic_status": "PROPOSED",
+      "test_id": "DOM-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R038",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R039",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R039",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-014"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-015"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-016"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-017"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R040",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-018"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R041",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R041",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R041",
+      "semantic_status": "PROPOSED",
+      "test_id": "IFACE-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R042",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-002"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R042",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-015"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R042",
+      "semantic_status": "PROPOSED",
+      "test_id": "RES-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R043",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R043",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-003"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R043",
+      "semantic_status": "PROPOSED",
+      "test_id": "GEN-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R043",
+      "semantic_status": "PROPOSED",
+      "test_id": "INC-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R043",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R044",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R044",
+      "semantic_status": "PROPOSED",
+      "test_id": "SEC-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R045",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R045",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R045",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R045",
+      "semantic_status": "PROPOSED",
+      "test_id": "STATE-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R046",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R046",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-017"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R046",
+      "semantic_status": "PROPOSED",
+      "test_id": "EVAL-004"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R046",
+      "semantic_status": "PROPOSED",
+      "test_id": "HASH-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R046",
+      "semantic_status": "PROPOSED",
+      "test_id": "ORA-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R047",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-007"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R047",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-005"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R048",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R048",
+      "semantic_status": "PROPOSED",
+      "test_id": "RT-008"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R049",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-009"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R049",
+      "semantic_status": "PROPOSED",
+      "test_id": "MEM-006"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R050",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-010"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R050",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-016"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R051",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-011"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R051",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R051",
+      "semantic_status": "PROPOSED",
+      "test_id": "TRACE-001"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R052",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-012"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R052",
+      "semantic_status": "PROPOSED",
+      "test_id": "C-018"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R053",
+      "semantic_status": "PROPOSED",
+      "test_id": "AC-T-013"
+    },
+    {
+      "independent_review": "NOT_REVIEWED",
+      "requirement_id": "HRAS-R053",
+      "semantic_status": "PROPOSED",
+      "test_id": "ST-009"
+    }
+  ],
+  "requirements": [
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "RT-001, RT-004",
+      "requirement_id": "HRAS-R001",
+      "sections": "0, 4, 5, 6",
+      "statement": "Short full-product ideas enter autonomous idea-to-production flow",
+      "test_ids": [
+        "AC-T-003",
+        "RT-001",
+        "RT-002",
+        "RT-003",
+        "RT-004",
+        "RT-005",
+        "RT-006",
+        "RT-007",
+        "RT-008",
+        "RT-009"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "PQ-006, ST-008",
+      "requirement_id": "HRAS-R002",
+      "sections": "0, 6, 19, 20",
+      "statement": "User intent and hard constraints remain traceable",
+      "test_ids": [
+        "PQ-006",
+        "ST-008"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "PQ-001, PQ-002, C-012",
+      "requirement_id": "HRAS-R003",
+      "sections": "6, 12, 22",
+      "statement": "Requirements have stable IDs and testable acceptance criteria",
+      "test_ids": [
+        "C-012",
+        "PQ-001",
+        "PQ-002",
+        "PQ-003",
+        "PQ-004",
+        "PQ-005",
+        "PQ-006",
+        "PQ-007",
+        "PQ-008",
+        "PQ-009",
+        "PQ-010"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ARCH-001, IFACE-001, AC-AC-T-011, DOM-006",
+      "requirement_id": "HRAS-R004",
+      "sections": "7, §3.4",
+      "statement": "Architecture defines interfaces, trust boundaries, risks and trade-offs",
+      "test_ids": [
+        "AC-T-011",
+        "ARCH-001",
+        "DOM-006",
+        "IFACE-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "RT-001, PQ-003",
+      "requirement_id": "HRAS-R005",
+      "sections": "5, 7, 18",
+      "statement": "Implementation continues through validation when requested and permitted",
+      "test_ids": [
+        "PQ-003",
+        "RT-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "PQ-004, PQ-005",
+      "requirement_id": "HRAS-R006",
+      "sections": "7.5, 8",
+      "statement": "In-scope UI controls and workflows are genuinely wired",
+      "test_ids": [
+        "PQ-004",
+        "PQ-005"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "RT-007, RT-008, DOM-004",
+      "requirement_id": "HRAS-R007",
+      "sections": "9, 23",
+      "statement": "QualityProfile is domain/risk-specific",
+      "test_ids": [
+        "AC-T-008",
+        "DOM-001",
+        "DOM-002",
+        "DOM-003",
+        "DOM-004",
+        "DOM-005",
+        "DOM-006",
+        "RT-007",
+        "RT-008"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-011, ST-008",
+      "requirement_id": "HRAS-R008",
+      "sections": "9.2, 10.6, 19",
+      "statement": "Hard gates cannot be offset by average score",
+      "test_ids": [
+        "AC-T-004",
+        "SEC-011",
+        "SEC-013",
+        "SEC-024",
+        "ST-008"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "UX-001 through UX-010",
+      "requirement_id": "HRAS-R009",
+      "sections": "8, 9",
+      "statement": "UI/UX and visual claims require appropriate evidence",
+      "test_ids": [
+        "UX-001",
+        "UX-002",
+        "UX-003",
+        "UX-004",
+        "UX-005",
+        "UX-006",
+        "UX-007",
+        "UX-008",
+        "UX-009",
+        "UX-010"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "UX-004, DOM-003",
+      "requirement_id": "HRAS-R010",
+      "sections": "8.6, 9.5, 12",
+      "statement": "Accessibility checks include manual review when applicable",
+      "test_ids": [
+        "DOM-003",
+        "UX-004",
+        "UX-005"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "UX-006 through UX-008",
+      "requirement_id": "HRAS-R011",
+      "sections": "8.3, 8.5",
+      "statement": "User-facing copy and assets are truthful and license-aware",
+      "test_ids": [
+        "UX-006",
+        "UX-007",
+        "UX-008"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "DOM-001, DOM-002",
+      "requirement_id": "HRAS-R012",
+      "sections": "9.4, 13",
+      "statement": "Web performance evidence distinguishes lab and field measurements",
+      "test_ids": [
+        "DOM-001",
+        "DOM-002"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-009 through SEC-012",
+      "requirement_id": "HRAS-R013",
+      "sections": "10",
+      "statement": "Authentication, authorization, data protection and threat controls are risk-based",
+      "test_ids": [
+        "SEC-005",
+        "SEC-006",
+        "SEC-007",
+        "SEC-008",
+        "SEC-009",
+        "SEC-010",
+        "SEC-011",
+        "SEC-012"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-001 through SEC-004",
+      "requirement_id": "HRAS-R014",
+      "sections": "4.3, 4.4, 14.4",
+      "statement": "External side effects require trusted scoped authorization",
+      "test_ids": [
+        "SEC-001",
+        "SEC-002",
+        "SEC-003",
+        "SEC-004",
+        "SEC-021",
+        "SEC-022",
+        "SEC-023"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-005, SEC-006, OPS-003",
+      "requirement_id": "HRAS-R015",
+      "sections": "4.5, 10.5, 11.5",
+      "statement": "Secret use is separated from secret disclosure",
+      "test_ids": [
+        "OPS-003",
+        "SEC-005",
+        "SEC-006"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-007, SEC-008",
+      "requirement_id": "HRAS-R016",
+      "sections": "10.4, 11",
+      "statement": "Untrusted content cannot change policy or authorize tools",
+      "test_ids": [
+        "SEC-007",
+        "SEC-008",
+        "SEC-014",
+        "SEC-015",
+        "SEC-016",
+        "SEC-017",
+        "SEC-018",
+        "SEC-019",
+        "SEC-020"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-004, ST-005, C-005",
+      "requirement_id": "HRAS-R017",
+      "sections": "11, 12, 19",
+      "statement": "Tool results and execution claims are truthful and traceable",
+      "test_ids": [
+        "C-005",
+        "ST-001",
+        "ST-002",
+        "ST-003",
+        "ST-004",
+        "ST-005",
+        "ST-006",
+        "ST-007",
+        "ST-008",
+        "ST-009",
+        "ST-010"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "PQ-010",
+      "requirement_id": "HRAS-R018",
+      "sections": "12",
+      "statement": "Tests are meaningful and not tampered with to pass",
+      "test_ids": [
+        "PQ-010"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-003, ST-009",
+      "requirement_id": "HRAS-R019",
+      "sections": "12.5, 18, 19",
+      "statement": "Required unexecuted tests block unsupported status claims",
+      "test_ids": [
+        "C-017",
+        "ST-003",
+        "ST-009"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-001, ST-002",
+      "requirement_id": "HRAS-R020",
+      "sections": "14, 18",
+      "statement": "Production readiness and actual deployment are distinct",
+      "test_ids": [
+        "ST-001",
+        "ST-002"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "OPS-001, OPS-002, OPS-004",
+      "requirement_id": "HRAS-R021",
+      "sections": "14",
+      "statement": "Operational readiness includes observability and recovery appropriate to risk",
+      "test_ids": [
+        "OPS-001",
+        "OPS-002",
+        "OPS-003",
+        "OPS-004"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "MEM-001 through MEM-005",
+      "requirement_id": "HRAS-R022",
+      "sections": "15",
+      "statement": "Memory is scoped, privacy-aware and policy-inert",
+      "test_ids": [
+        "AC-T-009",
+        "MEM-001",
+        "MEM-002",
+        "MEM-003",
+        "MEM-004",
+        "MEM-005",
+        "MEM-006"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "MEM-002, C-007",
+      "requirement_id": "HRAS-R023",
+      "sections": "15, 25",
+      "statement": "Policy changes require controlled approval and regression tests",
+      "test_ids": [
+        "C-007",
+        "MEM-002",
+        "MEM-006"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "MEM-003, MEM-004, PAR-001",
+      "requirement_id": "HRAS-R024",
+      "sections": "15, 16",
+      "statement": "Concurrent memory/evidence changes preserve conflicts and provenance",
+      "test_ids": [
+        "MEM-003",
+        "MEM-004",
+        "PAR-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "RES-001 through RES-005, C-009",
+      "requirement_id": "HRAS-R025",
+      "sections": "16",
+      "statement": "Resource use and retries are bounded by consistent aggregate budgets",
+      "test_ids": [
+        "AC-T-002",
+        "AC-T-014",
+        "C-009",
+        "RES-001",
+        "RES-002",
+        "RES-003",
+        "RES-004",
+        "RES-005",
+        "RES-006"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "CTX-001 through CTX-005",
+      "requirement_id": "HRAS-R026",
+      "sections": "16.5",
+      "statement": "Context compaction and resume preserve authorization, evidence and counters",
+      "test_ids": [
+        "AC-T-014",
+        "CTX-001",
+        "CTX-002",
+        "CTX-003",
+        "CTX-004",
+        "CTX-005"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "PAR-001, PAR-002, C-013",
+      "requirement_id": "HRAS-R027",
+      "sections": "7.3, 16.4",
+      "statement": "Parallel execution is isolated and integrated work is revalidated",
+      "test_ids": [
+        "AC-T-015",
+        "C-013",
+        "PAR-001",
+        "PAR-002"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "EVAL-001 through EVAL-003 and versioned benchmark report",
+      "requirement_id": "HRAS-R028",
+      "sections": "17",
+      "statement": "Agent-level evaluation is separate from product testing",
+      "test_ids": [
+        "EVAL-001",
+        "EVAL-002",
+        "EVAL-003",
+        "EVAL-004"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-004, C-005, SEC-011",
+      "requirement_id": "HRAS-R029",
+      "sections": "17.4, 19",
+      "statement": "Release-critical authorization/evidence failures block regardless of average score",
+      "test_ids": [
+        "AC-T-012",
+        "C-004",
+        "C-005",
+        "C-018",
+        "EVAL-004",
+        "SEC-011",
+        "SEC-013"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-001 through ST-010, C-006",
+      "requirement_id": "HRAS-R030",
+      "sections": "18, 19",
+      "statement": "State machine enforces preconditions for terminal statuses",
+      "test_ids": [
+        "AC-T-005",
+        "AC-T-013",
+        "ST-001",
+        "ST-002",
+        "ST-003",
+        "ST-004",
+        "ST-005",
+        "ST-006",
+        "ST-007",
+        "ST-008",
+        "ST-009",
+        "ST-010",
+        "ST-011",
+        "STATE-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-010, ST-008",
+      "requirement_id": "HRAS-R031",
+      "sections": "0, 9, 19",
+      "statement": "Masterpiece status requires applicable gates and evidence",
+      "test_ids": [
+        "AC-T-013",
+        "C-010",
+        "ST-008"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-001, C-002, ST-010",
+      "requirement_id": "HRAS-R032",
+      "sections": "3.3, 19",
+      "statement": "The final validator detects missing modules, invalid enums and gate bindings",
+      "test_ids": [
+        "AC-T-001",
+        "C-001",
+        "C-002",
+        "ST-010"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-005",
+      "requirement_id": "HRAS-R033",
+      "sections": "11.5, 12.4, 19",
+      "statement": "Evidence freshness follows the final artifact/code state",
+      "test_ids": [
+        "AC-T-007",
+        "ST-005"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-009",
+      "requirement_id": "HRAS-R034",
+      "sections": "20",
+      "statement": "Product handoff names changes, results, assumptions and gaps",
+      "test_ids": [
+        "PQ-006",
+        "ST-009"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-016",
+      "requirement_id": "HRAS-R035",
+      "sections": "25",
+      "statement": "Version identity and release claims are consistent and governed",
+      "test_ids": [
+        "AC-T-010",
+        "C-016"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-012, REF-001",
+      "requirement_id": "HRAS-R036",
+      "sections": "10.3, 26",
+      "statement": "External standards are versioned and not treated as automatic certification",
+      "test_ids": [
+        "REF-001",
+        "SEC-012"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "DOM-006, OPS-001",
+      "requirement_id": "HRAS-R037",
+      "sections": "7.2, 9.9, 14.3",
+      "statement": "Data migration handles integrity, backup and recovery",
+      "test_ids": [
+        "DOM-006",
+        "OPS-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "DOM-005",
+      "requirement_id": "HRAS-R038",
+      "sections": "9.8, 17",
+      "statement": "Domain-specific AI products use representative safety/quality evaluations",
+      "test_ids": [
+        "DOM-005",
+        "EVAL-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-009, RES-003",
+      "requirement_id": "HRAS-R039",
+      "sections": "0, 16.6, 18, 20",
+      "statement": "Product status reflects best feasible work without concealing blockers",
+      "test_ids": [
+        "RES-003",
+        "ST-009"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-001 through C-018, AC-T-006, AC-T-010",
+      "requirement_id": "HRAS-R040",
+      "sections": "3.3–3.5, 19, 24–25",
+      "statement": "Static consistency and runtime conformance are separately reported",
+      "test_ids": [
+        "AC-T-006",
+        "AC-T-010",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-011",
+        "C-012",
+        "C-013",
+        "C-014",
+        "C-015",
+        "C-016",
+        "C-017",
+        "C-018"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-001, AC-T-001",
+      "requirement_id": "HRAS-R041",
+      "sections": "3.1–3.5, Annex A",
+      "statement": "Core interface contracts use complete, versioned machine-readable schemas",
+      "test_ids": [
+        "AC-T-001",
+        "C-001",
+        "IFACE-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "RES-006, AC-T-002",
+      "requirement_id": "HRAS-R042",
+      "sections": "11.4, 16.3",
+      "statement": "External side effects reconcile unknown outcomes before retry",
+      "test_ids": [
+        "AC-T-002",
+        "AC-T-015",
+        "RES-006"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-003, RT-009, AC-T-003",
+      "requirement_id": "HRAS-R043",
+      "sections": "5, 18, 21",
+      "statement": "Primary routes are unique and route-specific state paths are enforced",
+      "test_ids": [
+        "AC-T-003",
+        "C-003",
+        "GEN-001",
+        "INC-001",
+        "RT-009"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "SEC-013, AC-T-004",
+      "requirement_id": "HRAS-R044",
+      "sections": "10.6, 18.5, 19.1, 23",
+      "statement": "Non-waivable gates and approved exceptions have distinct semantics",
+      "test_ids": [
+        "AC-T-004",
+        "SEC-013"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-006, SAC-T-011, AC-T-005",
+      "requirement_id": "HRAS-R045",
+      "sections": "18, 19",
+      "statement": "State transitions and delivery status are separate, typed, and enforced",
+      "test_ids": [
+        "AC-T-005",
+        "C-006",
+        "ST-011",
+        "STATE-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-017, EVAL-004, AC-T-006",
+      "requirement_id": "HRAS-R046",
+      "sections": "17.3, 19.3",
+      "statement": "Test suite and run report require per-case metadata, result, evidence, and identity",
+      "test_ids": [
+        "AC-T-006",
+        "C-017",
+        "EVAL-004",
+        "HASH-001",
+        "ORA-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-005, AC-T-007",
+      "requirement_id": "HRAS-R047",
+      "sections": "3.2, 11.5, 12.4, 19.4",
+      "statement": "Evidence is bound to final artifact identity and profile-based freshness/invalidation",
+      "test_ids": [
+        "AC-T-007",
+        "ST-005"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "RT-008, AC-T-008",
+      "requirement_id": "HRAS-R048",
+      "sections": "9.2, 23",
+      "statement": "QualityProfile applicability and threshold changes cannot self-waive gates",
+      "test_ids": [
+        "AC-T-008",
+        "RT-008"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "MEM-006, AC-T-009",
+      "requirement_id": "HRAS-R049",
+      "sections": "15",
+      "statement": "Memory deletion/retention is reconciled with integrity-preserving audit history",
+      "test_ids": [
+        "AC-T-009",
+        "MEM-006"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-016, AC-T-010",
+      "requirement_id": "HRAS-R050",
+      "sections": "19, 25",
+      "statement": "Release requires identical active spec/schema/validator/test identity",
+      "test_ids": [
+        "AC-T-010",
+        "C-016"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-012, AC-AC-T-011",
+      "requirement_id": "HRAS-R051",
+      "sections": "6.3, 12.3, 19",
+      "statement": "Traceability verification assesses semantic mapping, not ID existence only",
+      "test_ids": [
+        "AC-T-011",
+        "C-012",
+        "TRACE-001"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "C-018, AC-T-012",
+      "requirement_id": "HRAS-R052",
+      "sections": "10.6, 17.4, 18.5, Annex A",
+      "statement": "Issue severity and release-blocking decisions use a canonical rule",
+      "test_ids": [
+        "AC-T-012",
+        "C-018"
+      ]
+    },
+    {
+      "coverage_status": "MAPPED_TO_TESTS",
+      "minimum_evidence": "ST-009, AC-T-013",
+      "requirement_id": "HRAS-R053",
+      "sections": "5.3, 18.5",
+      "statement": "Primary mode and final delivery status have an explicit decision oracle",
+      "test_ids": [
+        "AC-T-013",
+        "ST-009"
+      ]
+    }
+  ],
+  "semantic_review_status": "PROPOSED_MAPPING_REQUIRES_OWNER_AND_INDEPENDENT_REVIEW",
+  "source_of_truth": "HRAS_v20_Test_Cases.json requirement_refs plus requirement registry in §27; regenerate both views from this registry.",
+  "spec_id": "HRAS-AUTO-ENG",
+  "spec_version": "20.0.0-rc4",
+  "routing_alias_policy_ref": "HRAS-POL-SUBROUTE-ALIAS-001",
+  "routing_alias_policy": {
+    "legacy_input": "RESEARCH",
+    "canonical_value": "EVIDENCE_RESEARCH",
+    "normalization_before_schema_validation": true,
+    "unknown_value": "REJECT"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "registry_id": "HRAS-KILO-GAP-REGISTRY",
+  "registry_version": "1.0.0",
+  "as_of": "2026-10-29",
+  "status": "CANONICAL_ID_REGISTRY_FOR_ADAPTER_R2",
+  "identity_rule": "canonical_id is the cross-document primary key. Legacy KG/IK IDs are document-local only and MUST NOT be compared or joined without this crosswalk.",
+  "canonical_gaps": [
+    {
+      "canonical_id": "HRAS-KILO-001",
+      "slug": "AUTHORIZATION_BROKER",
+      "severity": "P0",
+      "statement": "Trusted authorization broker verifies identity, authority, scope, audience, expiry, revocation, replay resistance and policy before high-impact effects."
+    },
+    {
+      "canonical_id": "HRAS-KILO-002",
+      "slug": "DURABLE_OPERATION_LEDGER",
+      "severity": "P0",
+      "statement": "Durable operation record, idempotency, authoritative read-back and reconciliation after unknown outcomes."
+    },
+    {
+      "canonical_id": "HRAS-KILO-003",
+      "slug": "RUNTIME_CONFORMANCE",
+      "severity": "P0",
+      "statement": "Execute all mandatory HRAS runtime cases against hashed fixtures, frozen oracles and identified environments."
+    },
+    {
+      "canonical_id": "HRAS-KILO-004",
+      "slug": "RELEASE_CONTROLLER",
+      "severity": "P0",
+      "statement": "Independent trusted controller validates mandatory gates and owns canonical delivery/release status."
+    },
+    {
+      "canonical_id": "HRAS-KILO-005",
+      "slug": "JCS_CONFORMANCE",
+      "severity": "P1",
+      "statement": "Provide fully conformant version-pinned RFC 8785/JCS canonicalization and cross-implementation vectors."
+    },
+    {
+      "canonical_id": "HRAS-KILO-006",
+      "slug": "SCHEMA_REGISTRY_AND_SEMANTIC_TRACEABILITY",
+      "severity": "P1",
+      "statement": "Freeze schemas and approve schema/interface/requirement trace links semantically."
+    },
+    {
+      "canonical_id": "HRAS-KILO-007",
+      "slug": "KILO_RUN_IDENTITY",
+      "severity": "P1",
+      "statement": "Bind each run to exact Kilo build, model/provider, config, rules, tools, environment, suite and source hashes."
+    },
+    {
+      "canonical_id": "HRAS-KILO-008",
+      "slug": "SANDBOX_AND_EGRESS",
+      "severity": "P1",
+      "statement": "Enforce OS/container isolation, restricted egress, credential separation and branch/deploy controls outside prompts."
+    },
+    {
+      "canonical_id": "HRAS-KILO-009",
+      "slug": "ADVERSARIAL_EVALUATION",
+      "severity": "P1",
+      "statement": "Run repeatable prompt-injection, permissions, tool-bypass and failure-path evaluations with observed outcomes."
+    },
+    {
+      "canonical_id": "HRAS-KILO-010",
+      "slug": "QUALITY_BENCHMARK",
+      "severity": "P2",
+      "statement": "Use a preapproved domain-specific product/model rubric, thresholds, independent oracle and repeatable trials."
+    },
+    {
+      "canonical_id": "HRAS-KILO-011",
+      "slug": "VISION_TRACEABILITY",
+      "severity": "P2",
+      "statement": "Map each source vision clause to a requirement/test or owner-approved exception with independent semantic review."
+    },
+    {
+      "canonical_id": "HRAS-KILO-012",
+      "slug": "VERSION_BASELINE_SEMANTICS",
+      "severity": "P2",
+      "statement": "Resolve the meaning of package baseline rc3 versus normative parent baseline v18 and test identity consistency."
+    },
+    {
+      "canonical_id": "HRAS-KILO-013",
+      "slug": "TOOL_BOUNDARY_OBSERVABILITY",
+      "severity": "P0",
+      "statement": "Declare allowed tool surface, bind test adapters and prove the actual provider/egress boundary is observed."
+    },
+    {
+      "canonical_id": "HRAS-KILO-014",
+      "slug": "ROUTE_MODE_MAPPING",
+      "severity": "P2",
+      "statement": "Keep HRAS route enums distinct from Kilo agent modes and verify command-to-route mapping."
+    }
+  ],
+  "legacy_crosswalk": [
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-001",
+      "canonical_id": "HRAS-KILO-001"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-002",
+      "canonical_id": "HRAS-KILO-002"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-003",
+      "canonical_id": "HRAS-KILO-003"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-004",
+      "canonical_id": "HRAS-KILO-004"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-005",
+      "canonical_id": "HRAS-KILO-005"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-006",
+      "canonical_id": "HRAS-KILO-006"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-007",
+      "canonical_id": "HRAS-KILO-007"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-008",
+      "canonical_id": "HRAS-KILO-008"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-009",
+      "canonical_id": "HRAS-KILO-009"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-010",
+      "canonical_id": "HRAS-KILO-010"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-011",
+      "canonical_id": "HRAS-KILO-011"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-012",
+      "canonical_id": "HRAS-KILO-012"
+    },
+    {
+      "document": "docs/source-audits/HRAS_KiloCode_Integration_Audit_2026-10-29.md",
+      "legacy_id": "KG-013",
+      "canonical_id": "HRAS-KILO-013"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-001",
+      "canonical_id": "HRAS-KILO-001"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-002",
+      "canonical_id": "HRAS-KILO-003"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-003",
+      "canonical_id": "HRAS-KILO-013"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-004",
+      "canonical_id": "HRAS-KILO-002"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-005",
+      "canonical_id": "HRAS-KILO-005"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-006",
+      "canonical_id": "HRAS-KILO-006"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-007",
+      "canonical_id": "HRAS-KILO-007"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-008",
+      "canonical_id": "HRAS-KILO-008"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-009",
+      "canonical_id": "HRAS-KILO-009"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-010",
+      "canonical_id": "HRAS-KILO-010"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-011",
+      "canonical_id": "HRAS-KILO-011"
+    },
+    {
+      "document": "docs/IMPLEMENTATION_ROADMAP.md",
+      "legacy_id": "KG-012",
+      "canonical_id": "HRAS-KILO-012"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-01",
+      "canonical_id": "HRAS-KILO-001"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-01",
+      "canonical_id": "HRAS-KILO-004"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-02",
+      "canonical_id": "HRAS-KILO-003"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-03",
+      "canonical_id": "HRAS-KILO-013"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-04",
+      "canonical_id": "HRAS-KILO-008"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-04",
+      "canonical_id": "HRAS-KILO-009"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-05",
+      "canonical_id": "HRAS-KILO-002"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-06",
+      "canonical_id": "HRAS-KILO-004"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-06",
+      "canonical_id": "HRAS-KILO-007"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-07",
+      "canonical_id": "HRAS-KILO-008"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-07",
+      "canonical_id": "HRAS-KILO-009"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-08",
+      "canonical_id": "HRAS-KILO-014"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-09",
+      "canonical_id": "HRAS-KILO-010"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-10",
+      "canonical_id": "HRAS-KILO-011"
+    },
+    {
+      "document": "docs/HRAS_KILO_INTEGRATION_AUDIT.md",
+      "legacy_id": "IK-11",
+      "canonical_id": "HRAS-KILO-012"
+    }
+  ],
+  "release_note": "This registry resolves identifier collision only; it does not declare any technical gap closed."
+}

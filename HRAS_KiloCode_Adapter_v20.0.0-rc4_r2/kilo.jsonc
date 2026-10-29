@@ -1,0 +1,47 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "instructions": [
+    ".hras/source/HRAS_v20_Compiled_Core_Prompt.md",
+    ".kilo/rules/00-hras-trust-and-precedence.md",
+    ".kilo/rules/10-hras-pipeline-and-scope.md",
+    ".kilo/rules/20-hras-evidence-and-delivery.md",
+    ".kilo/rules/30-hras-security-and-side-effects.md",
+    ".kilo/rules/40-hras-testing-and-quality.md",
+    ".kilo/rules/50-hras-research-and-citations.md"
+  ],
+  "permission": {
+    "edit": "ask",
+    "external_directory": "ask",
+    "websearch": "ask",
+    "webfetch": "ask",
+    "bash": {
+      "*": "ask",
+      "git status --short": "allow",
+      "git diff --check": "allow",
+      "git diff --stat": "allow",
+      "git log -5 --oneline": "allow",
+      "git push*": "deny",
+      "git push --force*": "deny",
+      "git reset --hard*": "deny",
+      "git clean -fd*": "deny",
+      "sudo *": "deny",
+      "terraform apply*": "deny",
+      "terraform destroy*": "deny",
+      "kubectl apply*": "deny",
+      "kubectl delete*": "deny",
+      "helm upgrade*": "deny",
+      "docker push*": "deny",
+      "npm publish*": "deny",
+      "gh pr merge*": "deny",
+      "gh release create*": "deny"
+    },
+    "task": {
+      "*": "deny",
+      "hras-audit": "allow",
+      "hras-builder": "allow",
+      "hras-test-engineer": "allow",
+      "hras-security-reviewer": "allow",
+      "hras-evidence-reviewer": "allow"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "HRAS-KILO-ADAPTER",
+  "adapter_version": "1.1.0-r2",
+  "hras_spec_id": "HRAS-AUTO-ENG",
+  "hras_candidate_version": "20.0.0-rc4",
+  "hras_source_status": "CANDIDATE_NOT_PRODUCTION_READY",
+  "kilo_target": "current Kilo Code VS Code extension/CLI Markdown-agent configuration",
+  "built_at": "2026-10-29",
+  "runtime_certification": "NOT_RUN",
+  "notes": [
+    "R2 remediates KFA-01..KFA-08 from the 2026-10-29 audit-of-audit report.",
+    "Strict adapter manifest, YAML frontmatter parsing, exact instruction inventory, effective permission-order checks, guard invariants and canonical cross-document gap registry are enforced by the local validator.",
+    "No live Kilo runtime, OS sandbox/egress, trusted HRAS control plane or 139-case runtime certification is claimed.",
+    "ADAPTER_MANIFEST.sha256 detects content drift against its current inventory; external archive SHA-256 is the release-artifact identity anchor. Use a detached signature/attestation for authenticity.",
+    "Run scripts/run_verification.py against the exact final ZIP and store its JSON report externally; the report binds raw command output, exit codes, test/script hashes and archive SHA-256 without creating a self-referential artifact."
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "report_id": "HRAS-WORKFLOW-COVERAGE-REPORT",
+  "spec_id": "HRAS-AUTO-ENG",
+  "spec_version": "20.0.0-rc4",
+  "registry_sha256": "sha256:3fb164127d0b918b34663d13dabb0b7b6be02f42632cbd0deb6d497ed0de9f67",
+  "mode_count": 13,
+  "transition_count": 195,
+  "retry_guarded_edge_count": 17,
+  "prohibited_shortcut_count": 3,
+  "modes": [
+    {
+      "primary_mode": "ARTIFACT_AUDIT",
+      "transition_count": 12,
+      "retry_guarded_edge_count": 1,
+      "state_count": 10,
+      "reachable_state_count": 10,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "DESIGN_ONLY",
+      "transition_count": 11,
+      "retry_guarded_edge_count": 1,
+      "state_count": 10,
+      "reachable_state_count": 10,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "FAST_FIX",
+      "transition_count": 18,
+      "retry_guarded_edge_count": 2,
+      "state_count": 13,
+      "reachable_state_count": 13,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "FAILED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "FEATURE_BUILD",
+      "transition_count": 20,
+      "retry_guarded_edge_count": 2,
+      "state_count": 15,
+      "reachable_state_count": 15,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "FAILED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "GENERAL_ASSISTANCE",
+      "transition_count": 10,
+      "retry_guarded_edge_count": 2,
+      "state_count": 8,
+      "reachable_state_count": 8,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "IDEA_TO_PRODUCTION",
+      "transition_count": 23,
+      "retry_guarded_edge_count": 3,
+      "state_count": 15,
+      "reachable_state_count": 15,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "FAILED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "INCIDENT_RESPONSE",
+      "transition_count": 14,
+      "retry_guarded_edge_count": 1,
+      "state_count": 10,
+      "reachable_state_count": 10,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "MAINTENANCE",
+      "transition_count": 19,
+      "retry_guarded_edge_count": 2,
+      "state_count": 13,
+      "reachable_state_count": 13,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "FAILED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "PLAN_ONLY",
+      "transition_count": 10,
+      "retry_guarded_edge_count": 0,
+      "state_count": 9,
+      "reachable_state_count": 9,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "PROTOTYPE",
+      "transition_count": 13,
+      "retry_guarded_edge_count": 1,
+      "state_count": 12,
+      "reachable_state_count": 12,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "RESEARCH_ONLY",
+      "transition_count": 10,
+      "retry_guarded_edge_count": 1,
+      "state_count": 9,
+      "reachable_state_count": 9,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "SECURITY_REVIEW",
+      "transition_count": 15,
+      "retry_guarded_edge_count": 1,
+      "state_count": 11,
+      "reachable_state_count": 11,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "PARTIAL_DELIVERY"
+      ]
+    },
+    {
+      "primary_mode": "TOOL_ACTION",
+      "transition_count": 20,
+      "retry_guarded_edge_count": 0,
+      "state_count": 13,
+      "reachable_state_count": 13,
+      "unreachable_states": [],
+      "reachable_terminal_states": [
+        "DELIVERED",
+        "EXHAUSTED",
+        "FAILED",
+        "PARTIAL_DELIVERY"
+      ]
+    }
+  ],
+  "all_modes_covered": true,
+  "all_transitions_attributed": true,
+  "all_cycles_guarded": true,
+  "analysis_scope": "STATIC_GRAPH_ONLY",
+  "limitations": [
+    "Generated from the canonical transition registry; does not execute runtime paths or prove enforcement by an external production controller.",
+    "Reachability starts at RECEIVED; unreachable states are surfaced explicitly.",
+    "Retry edges are bounded only when callers use retry_transition_allowed with trusted durable counters; production integration remains external."
+  ]
+}
